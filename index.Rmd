@@ -1,0 +1,106 @@
+---
+title: "Reproducibility in R"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+---
+
+# Introduction
+This is an introduction to Reproducibility in R.
+
+Hello, Website!
+
+For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+
+Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+
+## Starting with Rstudio
+Information about R studio
+
+### Opening R studio
+Show the different panes
+
+Add table of Contents to organize your script.
+
+Bold text **Bold text**
+or by __I am bold using double underscores__
+
+For Italics *Italics* or _italics_
+
+Add superscript ^It^
+Add subscript ~tidle~
+
+Add inline code to write code using backtick 'code'
+Use double with underscores to strikethrough  ~~double~~ once
+
+Breaking sentence just use double enter like I
+
+LOVE
+
+YOU
+
+But if you want to break it up use backslash\ with two enters
+
+
+and continue
+
+We have covered this in [Introduction section](#Introduction)
+[TRaining website](https://cambiotraining.github.io/ReproducibilityR_Feb2020/rmarkdown.html).
+
+Foot note 
+[^1]: First foot note.
+[^2]: second foot note
+
+## Lists
+Order list take numbers
+
+1. Item a
+2. Item B
+3. Item c
+ a. Sublist1
+ b. Sublist2
+ 
+![A cake](https://i.pinimg.com/236x/d7/a6/e7/d7a6e72fcdd0df60da8575c77b9b73f6--happy-birthday-cakes-happy-birthday-wishes.jpg)
+
+![Cake 2](/home/participant/Desktop/Course_Materials/cake2)
+
+## Tables
+You can create tables using |
+
+## Table
+
+|Header|Column 2|
+|------|---------|
+|Ram|53|
+|Sita|42|
+
+> greater than sign create blocks
+
+HOW DOES THAT LOOK?
+sINGLE COLUMN HIGHLIGHT?
+
+sINGLE BACKTICKS  'are used inline'.
+
+print ("hello")
+
+read.csv(data.txt)
+
+
+
+```{r}
+75*8
+```
+
+```{r}
+calculation_putput<- 100*2
+calculation_putput
+```
+
+
+```{r}
+calculation_putput<- 5
+calculation_putput
+```
+
+
